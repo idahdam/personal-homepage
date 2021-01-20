@@ -78,10 +78,12 @@ export const NavItem = styled.li`
     border-top: 20px solid transparent;
     margin-left: 3.5%;
     margin-right: 3.5%;
+    transition-timing-function: ease-in;
 
     &:hover{
-        border-bottom: 10px solid grey;
-        transition: all 0.4s ease-in;
+        border-bottom: 6px solid grey;
+        transition: all 0.3s ease-out;
+        border-bottom: 6px solid transparent;
     }
 
     @media screen and (max-width: 960px){
