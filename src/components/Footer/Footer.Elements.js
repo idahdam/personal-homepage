@@ -47,20 +47,32 @@ export const SocialIconLink = styled.a`
 
 export const FooterLink = styled.a`
     color:#000;
+    height: 100%;
+    border-top: 20px solid transparent;
     text-decoration: none;
     margin-bottom: 0.5rem;
+
     &:hover{
         color:grey;
         transition: 0.3 ease-out;
+        border-bottom: 6px solid grey;
+        transition: all 0.3s ease-out;
+        border-bottom: 6px solid transparent;
     }
 `
 
 export const FooterRoute = styled(Link)`
     color:#000;
+    height: 100%;
+    border-top: 20px solid transparent;
     text-decoration: none;
     margin-bottom: 0.5rem;
+
     &:hover{
         color:grey;
         transition: 0.3 ease-out;
+        border-bottom: 6px solid grey;
+        transition: all 0.3s ease-out;
+        border-bottom: 6px solid transparent;
     }
 `
