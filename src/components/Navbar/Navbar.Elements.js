@@ -6,7 +6,7 @@ import { Container } from '../../globalStyles'
 export const Nav = styled.nav`
     display: inline-block;
     background: transparent;
-    transparent: 100%;
+    transparent: 100vw;
     padding-left: 38em;
     height: 80px;
     display: flex;
@@ -77,9 +77,9 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
     list-style: none;
     height: 75px;
-    width: 100%;
+    width: 8vw;
     border-top: 20px solid transparent;
-    margin-left: 3.5%;
+    margin-left: .5%;
     margin-right: 3.5%;
     transition-timing-function: ease-in;
 

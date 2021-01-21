@@ -7,8 +7,6 @@ const Home = () => {
     return (
         <>
         <Header {...HomeObjOne}/>
-        <Header {...HomeObjOne}/>
-        <Header {...HomeObjOne}/>
         </>
     )
 }

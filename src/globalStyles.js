@@ -27,6 +27,7 @@ export const Container = styled.div`
 `
 
 export const Button = styled.button`
+    margin-left: 2em;
     border-radius: 4px;
     background: ${({primary}) => (primary ? '#4b59f7' : '#0467fb')};
     white-space: nowrap;

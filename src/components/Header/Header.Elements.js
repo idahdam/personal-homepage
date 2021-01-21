@@ -2,15 +2,14 @@ import styled from 'styled-components'
 
 export const InfoSec = styled.div`
     color: #fff;
-    padding: 160px 0;
+    padding: 50px 0 160px;
     background: ${({lightBg}) => (lightBg ? '#fff': '#101522')};
 `
 
 export const InfoRow = styled.div`
     display: flex;
-    margin: 0 -15px -15px -15px;
     flex-wrap: wrap;
-    align-items: left;
+    align-items: center;
     flex-direction: ${({imgStart}) => (imgStart ? 'row-reverse': 'row')}
 `
 
@@ -19,7 +18,8 @@ export const InfoColumn = styled.div`
     padding-right: 15px;
     padding-left: 15px;
     flex: 1;
-    max-width: 60%;
+    width: 100%;
+    max-width: 100%;
     flex-basis: 50%;
     @media screen and (max-width: 768px){
         max-width: 100%;
@@ -46,6 +46,8 @@ export const TopLine = styled.div`
 `
 
 export const Heading = styled.h1`
+    padding-top: 1.2em;
+    padding-left: 1em;
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
@@ -54,6 +56,7 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
     max-width: 440px;
+    padding-left: 2.5em;
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
@@ -61,13 +64,15 @@ export const Subtitle = styled.p`
 `
 
 export const ImgWrapper = styled.div`
-    max-width: 555px;
+    padding-top: 1rem; 
+    max-width: 550px;
     display: flex;
     justify-content: ${({start}) => (start ? 'flex-start': 'flex-end' )}
 `
 
 export const Img = styled.img`
     padding-right: 0;
+    margin-right: 30px;
     border: 0;
     max-width: 100%;
     vertical-align: middle;
