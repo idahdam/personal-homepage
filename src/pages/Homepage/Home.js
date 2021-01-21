@@ -1,12 +1,13 @@
 import React from 'react'
-import { Header } from '../../components'
-import { HomeObjOne } from './Data'
+import { Header, Section } from '../../components'
+import { HomeObjOne, HomeObjTwo } from './Data'
 
 
 const Home = () => {
     return (
         <>
         <Header {...HomeObjOne}/>
+        <Section {...HomeObjTwo}/>
         </>
     )
 }

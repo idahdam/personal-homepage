@@ -7,7 +7,9 @@ export const Title = {
 }
 
 export const Blog = {
-
+    main: "latest",
+    mainBold: "Blog",
+    viewAll: "view all>"
 }
 
 export const Projects = {
@@ -26,11 +28,28 @@ export const HomeObjOne = {
     lightTextDesc: false, 
     buttonLabel: 'Portfolio', 
     description: 'Currently a second year student of Computer Engineering and likes to tinker with computer and electronics. Not sure what to do with this website though, so impulsive.', 
-    headline: "Hi! I'm Hadi",
-    headlineBold: "Hadi", 
+    main: "Hi! I'm Hadi",
+    mainBold: "Hadi", 
+    lightText: false, 
+    topLine: '',
+    start: '',
+    img : require('../../images/homepage/FullFix.png').default,
+    alt : 'Header Image',
+}
+
+export const HomeObjTwo = {
+    lightBg: false,
+    primary: false,
+    imgStart: '', 
+    lightTopLine: false, 
+    lightTextDesc: false, 
+    buttonLabel: 'Portfolio', 
+    description: 'view all>', 
+    main: "latest",
+    mainBold: "Blog", 
     lightText: false, 
     topLine: '',
     start: '',
     img : require('../../images/homepage/Vector-Mid.png').default,
-    alt : 'Start Image',
+    alt : 'Header Image',
 }

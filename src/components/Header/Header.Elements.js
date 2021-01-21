@@ -65,17 +65,21 @@ export const Subtitle = styled.p`
 
 export const ImgWrapper = styled.div`
     padding-top: 1rem; 
-    max-width: 550px;
+    max-width: 600px;
     display: flex;
     justify-content: ${({start}) => (start ? 'flex-start': 'flex-end' )}
 `
 
 export const Img = styled.img`
     padding-right: 0;
-    margin-right: 30px;
     border: 0;
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
-    max-height: 500px;
+    max-height: 600px;
+`
+
+export const TextBold = styled.p`
+    background: #811313;
+    color: white;
 `

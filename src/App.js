@@ -10,6 +10,9 @@ function App() {
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home}/>
+        <Route exact path="/Blog" component={Home}/>
+        <Route exact path="/Projects" component={Home}/>
+        <Route exact path="/Social" component={Home}/>
       </Switch>
       <Footer/>
     </Router>
