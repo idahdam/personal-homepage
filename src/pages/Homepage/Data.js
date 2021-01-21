@@ -53,3 +53,24 @@ export const HomeObjTwo = {
     img : require('../../images/homepage/Vector-Mid.png').default,
     alt : 'Header Image',
 }
+
+export const HomeObjThree = {
+    lightBg: true,
+    primary: false,
+    imgStart: 'start', 
+    lightTopLine: false, 
+    lightTextDesc: false, 
+    buttonLabel: 'Portfolio', 
+    description: 'view all>', 
+    main: "latest",
+    mainBold: "Blog", 
+    lightText: false, 
+    topLine: '',
+    start: '',
+    img : require('../../images/homepage/Vector-Mid.png').default,
+    alt : 'Header Image',
+}
+
+export const LightToDark = {
+    light: true
+}

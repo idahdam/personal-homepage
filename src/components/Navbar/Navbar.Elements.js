@@ -6,8 +6,8 @@ import { Container } from '../../globalStyles'
 export const Nav = styled.nav`
     display: inline-block;
     background: transparent;
-    transparent: 100vw;
     padding-left: 38em;
+    padding-right: 30em;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -56,6 +56,7 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
     display: flex;
     align-items: right;
+    margin-left: 1em;
     list-style: none;
     text-align: none; 
 
@@ -80,7 +81,7 @@ export const NavItem = styled.li`
     width: 8vw;
     border-top: 20px solid transparent;
     margin-left: .5%;
-    margin-right: 3.5%;
+    margin-right: 5.5%;
     transition-timing-function: ease-in;
 
     &:hover{
