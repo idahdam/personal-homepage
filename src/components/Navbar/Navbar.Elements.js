@@ -4,14 +4,16 @@ import { Link } from 'react-router-dom'
 import { Container } from '../../globalStyles'
 
 export const Nav = styled.nav`
-    background: #fff;
-    transparent: 80%;
+    display: inline-block;
+    background: transparent;
+    transparent: 100%;
+    padding-left: 38em;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: right;
     font-size: 1.5rem;
-    position: sticky;
+    position: fixed;
     top: 10;
     z-index: 999;
 `
@@ -54,9 +56,8 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
     display: flex;
     align-items: right;
-    margin-left: 75%;
     list-style: none;
-    text-align: center; 
+    text-align: none; 
 
     @media screen and (max-width: 960px){
         display:flex;
@@ -74,7 +75,9 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
+    list-style: none;
     height: 75px;
+    width: 100%;
     border-top: 20px solid transparent;
     margin-left: 3.5%;
     margin-right: 3.5%;

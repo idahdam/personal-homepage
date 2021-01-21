@@ -1,10 +1,14 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { Header } from '../../components'
+import { HomeObjOne } from './Data'
 
 
 const Home = () => {
     return (
         <>
+        <Header {...HomeObjOne}/>
+        <Header {...HomeObjOne}/>
+        <Header {...HomeObjOne}/>
         </>
     )
 }
