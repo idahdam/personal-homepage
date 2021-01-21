@@ -33,6 +33,7 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+    margin-left: 1.5rem;
     @media screen and (max-width: 768px){
         padding-bottom: 76px;
     }
@@ -95,7 +96,10 @@ export const Img = styled.img`
     &:hover{
         transform: scale(1.5);
         transition: all 0.3s ease-in;
+        transform: rotate(360deg);
+        transition: all 1s ease-in-out;
         filter: invert(1);
+
     }
 `
 
