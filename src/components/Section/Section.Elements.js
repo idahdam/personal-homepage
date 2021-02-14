@@ -7,6 +7,7 @@ export const InfoSec = styled.div`
 `
 
 export const InfoRow = styled.div`
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -15,12 +16,10 @@ export const InfoRow = styled.div`
 
 export const InfoColumn = styled.div`
     margin-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 0;
     flex: 1;
-    width: 100%;
-    max-width: 100%;
-    flex-basis: 50%;
+    max-width: auto;
     @media screen and (max-width: 768px){
         max-width: 100%;
         flex-basis: 100%;
@@ -29,11 +28,23 @@ export const InfoColumn = styled.div`
     }
 `
 
+export const InfoColumnOne = styled.div`
+    width: 40%;
+    margin-bottom: 15px;
+    padding-right: 2px;
+    column-gap: 40px;
+    @media screen and (max-width: 768px){
+        max-width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+`
+
+
 export const TextWrapper = styled.div`
-    max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 60px;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 15rem;
     @media screen and (max-width: 768px){
         padding-bottom: 76px;
     }
@@ -57,29 +68,17 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-    max-width: 440px;
     padding-left: 2.5em;
-    margin-left: 0.5em;
     margin-top: 1em;
     margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 24px;
-    color: ${({lightTextDesc}) => (lightTextDesc ? '#fff': '#fff')};
-
-
-    &:hover{
-        color: grey;
-        border-bottom: 6px solid white;
-        border-top: 6px solid grey;
-        transition: all 0.3s ease-out;
-        border-top: 6px solid transparent;
-        border-bottom: 6px solid transparent; 
-    }
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #811313;
 `
 
 export const ImgWrapper = styled.div`
     padding-top: 1rem; 
-    max-width: 550px;
+    max-width: 100px;
     display: flex;
     justify-content: ${({start}) => (start ? 'flex-start': 'flex-end' )}
 `
@@ -92,32 +91,17 @@ export const Img = styled.img`
     vertical-align: middle;
     display: inline-block;
     max-height: 500px;
-
-    &:hover{
-        transform: scale(1.5);
-        transition: all 0.3s ease-in;
-        transform: rotate(360deg);
-        transition: all 1s ease-in-out;
-        filter: invert(1);
-
-    }
 `
 
 export const TextBold = styled.p`
     background: #811313;
-    background-clip: border-box;
-    padding-left: 10px;
-    margin-right: 7.8em;
-    margin-left: 1em;
-    color: white;
-    display: flex;
+    background-clip: padding-box;
+    text-decoration: none;
     font-size: 48px;
-
-    &:hover{
-        margin-right: 5em;
-        transition: all 0.4s ease-out;
-    }
+    margin-left: 2.5rem;
+    margin-right: ${({status}) => (status ? '5rem': '0.5rem' )}
 `
 
 export const ViewAll = styled.a`
+    color: #811313;
 `

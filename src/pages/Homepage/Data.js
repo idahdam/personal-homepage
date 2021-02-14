@@ -38,6 +38,7 @@ export const HomeObjOne = {
 }
 
 export const HomeObjTwo = {
+    status: true,
     lightBg: false,
     primary: false,
     imgStart: '', 
@@ -50,11 +51,27 @@ export const HomeObjTwo = {
     lightText: false, 
     topLine: '',
     start: '',
-    img : require('../../images/homepage/Vector-Mid.png').default,
+    img : require('../../images/homepage/Thumb.jpg').default,
     alt : 'Header Image',
 }
 
+export const BlogOne = {
+    title: "FUCK",
+    img: require('../../images/homepage/Thumb.jpg').default,
+}
+
+export const BlogTwo = {
+    title: "FUCK",
+    img: require('../../images/homepage/Thumb.jpg').default,
+}
+
+export const BlogThree = {
+    title: "FUCK",
+    img: require('../../images/homepage/Thumb.jpg').default,
+}
+
 export const HomeObjThree = {
+    status: false,
     lightBg: true,
     primary: false,
     imgStart: 'start', 
@@ -63,7 +80,7 @@ export const HomeObjThree = {
     buttonLabel: 'Portfolio', 
     description: 'view all>', 
     main: "latest",
-    mainBold: "Blog", 
+    mainBold: "Projects", 
     lightText: false, 
     topLine: '',
     start: '',
