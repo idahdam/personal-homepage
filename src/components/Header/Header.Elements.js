@@ -7,6 +7,7 @@ export const InfoSec = styled.div`
 `
 
 export const InfoRow = styled.div`
+    padding-top: 2.5rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -21,6 +22,20 @@ export const InfoColumn = styled.div`
     width: 100%;
     max-width: 100%;
     flex-basis: 50%;
+    
+    @media screen and (max-width: 768px){
+        max-width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+`
+
+export const InfoColumnImg = styled.div`
+    flex: 1;
+    width: auto;
+    flex-basis: 50%;
+    
     @media screen and (max-width: 768px){
         max-width: 100%;
         flex-basis: 100%;
@@ -49,7 +64,7 @@ export const Heading = styled.h1`
     padding-top: 1.2em;
     padding-left: 1em;
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 4rem;
     line-height: 1.1;
     color: ${({lightText}) => (lightText ? '#f7f8fa': '#1c2237')};
 `
@@ -58,14 +73,14 @@ export const Subtitle = styled.p`
     max-width: 440px;
     padding-left: 2.5em;
     margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1': '#1c2237')};
 `
 
 export const ImgWrapper = styled.div`
     padding-top: 1rem; 
-    max-width: 600px;
+    max-width: 100rem;
     display: flex;
     justify-content: ${({start}) => (start ? 'flex-start': 'flex-end' )}
 `

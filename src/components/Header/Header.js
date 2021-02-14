@@ -1,9 +1,19 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import { Container, Button } from '../../globalStyles'
-import {TextBold, InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img} from './Header.Elements'
+import { Container } from '../../globalStyles'
+import {
+    InfoColumnImg, 
+    InfoSec, 
+    InfoRow, 
+    InfoColumn,
+     TextWrapper, 
+     TopLine, 
+     Heading, 
+     Subtitle, 
+     ImgWrapper, 
+     Img
+} from './Header.Elements'
 
-const Header = ({primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, mainBold, main, lightText, topLine,
+const Header = ({lightBg, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine,
 start, img, alt}) => {
     return (
         <>
@@ -17,11 +27,11 @@ start, img, alt}) => {
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                         </TextWrapper>
                     </InfoColumn>
-                    <InfoColumn>
+                    <InfoColumnImg>
                         <ImgWrapper start={start}>
                             <Img src={img} alt={alt}></Img>
                         </ImgWrapper>
-                    </InfoColumn>
+                    </InfoColumnImg>
                 </InfoRow>
             </Container>
           </InfoSec>
