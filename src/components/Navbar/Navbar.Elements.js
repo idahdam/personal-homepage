@@ -56,7 +56,7 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
     display: flex;
     align-items: right;
-    margin-left: 1em;
+    margin-left: -4rem;
     list-style: none;
     text-align: none; 
 

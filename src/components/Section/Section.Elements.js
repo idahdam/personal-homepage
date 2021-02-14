@@ -59,10 +59,10 @@ export const TopLine = styled.div`
 
 export const Heading = styled.h1`
     padding-top: 1.2em;
-    padding-left: 1em;
+    padding-left: 1.2rem;
     margin-left: 20px;
     margin-bottom: 5px;
-    font-size: 30px;
+    font-size: 2.5rem;
     line-height: 1.1;
     color: ${({lightText}) => (lightText ? '#000': '#000')};
 `
@@ -97,9 +97,10 @@ export const TextBold = styled.p`
     background: #811313;
     background-clip: padding-box;
     text-decoration: none;
-    font-size: 48px;
-    margin-left: 2.5rem;
-    margin-right: ${({status}) => (status ? '5rem': '0.5rem' )}
+    font-size: 4rem;
+    padding-left: 0.5rem;
+    margin-left: 2rem;
+    margin-right: ${({status}) => (status ? '2.75rem': '-3.5rem' )}
 `
 
 export const ViewAll = styled.a`

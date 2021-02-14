@@ -30,7 +30,7 @@ export const CatalogImg = styled.img`
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
     padding: 1px;
     height: 177px;
     width: 177px;
