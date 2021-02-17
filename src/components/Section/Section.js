@@ -4,8 +4,7 @@ import { BlogOne } from '../../pages/Homepage/Data';
 import { Container, Button } from '../../globalStyles'
 import { ViewAll, TextBold, InfoSec, InfoRow, InfoColumn, InfoColumnOne, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img } from './Section.Elements'
 
-const Section = ({status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine,
-start, img, alt}) => {
+const Section = ({status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine, link}) => {
     return (
         <>
           <InfoSec lightBg = {lightBg}>
@@ -16,7 +15,7 @@ start, img, alt}) => {
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{main}</Heading>
                                 <TextBold status={status}>{mainBold}</TextBold>
-                                <ViewAll href="/blog" target="_blank">
+                                <ViewAll href={link}>
                                 	<Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                                 </ViewAll>
                         </TextWrapper>

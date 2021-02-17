@@ -3,8 +3,9 @@ import styled from 'styled-components'
 export const InfoSec = styled.div`
     color: #fff;
     padding: 50px 0 160px;
-    background: ${({lightBg}) => (lightBg ? '#fff': '#C4C4C4')};
-`
+    background: ${({lightBg}) => (lightBg ? '#fff': '#C4C4C4 linear-gradient(0deg, white, transparent 25%) bottom;')};
+    box-shadow:  ${({lightBg}) => (lightBg ? 'inset 0px 105px 100px 0px #fff;': 'inset 0px 105px 100px 0px #fff;')}
+`   
 
 export const InfoRow = styled.div`
     margin-top: 5rem;

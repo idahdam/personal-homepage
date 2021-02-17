@@ -35,6 +35,7 @@ export const HomeObjOne = {
     start: '',
     img : require('../../images/homepage/FullFix.png').default,
     alt : 'Header Image',
+    link: null
 }
 
 export const HomeObjTwo = {
@@ -53,6 +54,7 @@ export const HomeObjTwo = {
     start: '',
     img : require('../../images/homepage/Thumb.jpg').default,
     alt : 'Header Image',
+    link: "/Blogs"
 }
 
 export const BlogOne = {
@@ -78,7 +80,7 @@ export const HomeObjThree = {
     lightTopLine: false, 
     lightTextDesc: false, 
     buttonLabel: 'Portfolio', 
-    description: 'view all>', 
+    description: '<view all', 
     main: "latest",
     mainBold: "Projects", 
     lightText: false, 
@@ -86,6 +88,26 @@ export const HomeObjThree = {
     start: '',
     img : require('../../images/homepage/Vector-Mid.png').default,
     alt : 'Header Image',
+    link: "/Projects"
+}
+
+export const HomeObjFour = {
+    status: true,
+    lightBg: false,
+    primary: false,
+    imgStart: '', 
+    lightTopLine: false, 
+    lightTextDesc: false, 
+    buttonLabel: 'Portfolio', 
+    description: 'view all>', 
+    main: "My",
+    mainBold: "Socials", 
+    lightText: false, 
+    topLine: '',
+    start: '',
+    img : require('../../images/homepage/Thumb.jpg').default,
+    alt : 'Header Image',
+    link: "/Blogs"
 }
 
 export const LightToDark = {

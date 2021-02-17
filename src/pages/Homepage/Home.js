@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header, Section, Gradient } from '../../components'
-import { HomeObjOne, HomeObjTwo, HomeObjThree, LightToDark } from './Data'
+import { HomeObjOne, HomeObjTwo, HomeObjThree, LightToDark, HomeObjFour } from './Data'
 
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
         <Gradient {...LightToDark}/>
         <Section {...HomeObjTwo}/>
         <Section {...HomeObjThree}/>
+        <Section {...HomeObjFour}/>
         </>
     )
 }
