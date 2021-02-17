@@ -60,13 +60,23 @@ export const TopLine = styled.div`
     margin-bottom: 16px;
 `
 
-export const Heading = styled.h1`
+export const Heading = styled.div`
     padding-top: 1.2em;
     padding-left: 1em;
     margin-bottom: 24px;
     font-size: 4rem;
     line-height: 1.1;
     color: ${({lightText}) => (lightText ? '#f7f8fa': '#1c2237')};
+`
+
+export const HeadingBold = styled.span`
+    clear: left;
+    background: #811313;
+    background-clip: content-box;
+    text-decoration: none;
+    font-size: 4rem;
+    padding-right: 18rem;
+    color: white;
 `
 
 export const Subtitle = styled.p`

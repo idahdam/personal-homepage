@@ -5,12 +5,13 @@ import {
     InfoSec, 
     InfoRow, 
     InfoColumn,
-     TextWrapper, 
-     TopLine, 
-     Heading, 
-     Subtitle, 
-     ImgWrapper, 
-     Img
+    TextWrapper, 
+    TopLine, 
+    Heading, 
+    Subtitle, 
+    ImgWrapper, 
+    Img,
+    HeadingBold
 } from './Header.Elements'
 
 const Header = ({lightBg, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine,
@@ -23,7 +24,7 @@ start, img, alt}) => {
                     <InfoColumn>
                         <TextWrapper>
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{main}</Heading>
+                                <Heading lightText={lightText}>Hi! I'm  <HeadingBold> Hadi</HeadingBold></Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                         </TextWrapper>
                     </InfoColumn>

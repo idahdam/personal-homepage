@@ -13,7 +13,7 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: right;
     font-size: 1.5rem;
-    position: fixed;
+    position: sticky;
     top: 10;
     z-index: 999;
 `

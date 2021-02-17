@@ -1,21 +1,25 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { Navbar, Footer } from './components'
 import { GlobalStyle } from './globalStyles'
 import Home from './pages/Homepage/Home';
+import Projects from './pages/Projects/Projects';
+import Blogs from './pages/Blogs/Blogs';
+import NaP from './pages/NaP/NaP';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <GlobalStyle/>
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route exact path="/Blog" component={Home}/>
-        <Route exact path="/Projects" component={Home}/>
-        <Route exact path="/Social" component={Home}/>
+        <Route exact path="/Blogs" component={Blogs}/>
+        <Route exact path="/Projects" component={Projects}/>
+        <Route exact path="/Socials" component={NaP}/>
+        <Route component={NaP}/>
       </Switch>
       <Footer/>
-    </Router>
+    </BrowserRouter>
   );
 }
 

@@ -1,7 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import { Catalog } from '../index';
-import { BlogOne, BlogTwo, BlogThree } from '../../pages/Homepage/Data';
+import { BlogOne } from '../../pages/Homepage/Data';
 import { Container, Button } from '../../globalStyles'
 import { ViewAll, TextBold, InfoSec, InfoRow, InfoColumn, InfoColumnOne, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img } from './Section.Elements'
 
