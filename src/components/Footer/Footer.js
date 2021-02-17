@@ -20,7 +20,7 @@ const Footer = () => {
                     made with ❤️ by <FooterLink href="https://instagram.com/idahdam" target="_blank">Hadi</FooterLink> (code) dan <FooterLink href="https://instagram.com/hamaswaree" target="_blank"> Hamas </FooterLink> (UI)
                 </FooterSubtext>
                 <FooterSubtext>
-                	@2021 <FooterRoute to="/">Go to top.</FooterRoute>	
+                	@2021 <FooterRoute href="/">Go to top.</FooterRoute>	
                 </FooterSubtext>
                 <FooterSubtext>
                 	

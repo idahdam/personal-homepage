@@ -1,9 +1,10 @@
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
+import {Link, Route} from 'react-router-dom'
 import { FaMagento } from 'react-icons/fa'
 
 export const FooterContainer = styled.div`
-    background-color: #fff;
+    // background-color: #fff;
+    background: transparent;
     padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: column;
@@ -61,7 +62,7 @@ export const FooterLink = styled.a`
     }
 `
 
-export const FooterRoute = styled(Link)`
+export const FooterRoute = styled.a`
     color:#000;
     height: 100%;
     border-top: 20px solid transparent;

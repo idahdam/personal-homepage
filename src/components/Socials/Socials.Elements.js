@@ -8,15 +8,9 @@ export const InfoSec = styled.div`
     box-shadow:  inset 0px 105px 100px 0px #fff;
     color: #fff;
     padding: 50px 0 160px;
-    background-color: #C4C4C4 linear-gradient(0deg, white, transparent 25%) bottom;
-    box-shadow:  inset 0px 105px 100px 0px #fff;
+    background-color: #fff linear-gradient(0deg, white, transparent 25%) bottom;
 `   
-export const ContainerSocials = styled(Container)`
-    color: #fff;
-    padding: 50px 0 160px;
-    background: ${({lightBg}) => (lightBg ? '#fff': '#C4C4C4 linear-gradient(0deg, white, transparent 25%) bottom top;')};
-    box-shadow:  ${({lightBg}) => (lightBg ? 'inset 0px 105px 100px 0px #fff;': 'inset 0px 105px 100px 0px #fff;')}
-`
+
 export const SocialsHeader = styled.p`
     background: #811313;
     background-clip: padding-box;
@@ -53,7 +47,9 @@ export const SocialsCol = styled.div`
 
 export const SocialsItem = styled.div`
     margin-bottom: 100px;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 15px;
 `
 
 export const SocialsItemText = styled.p`

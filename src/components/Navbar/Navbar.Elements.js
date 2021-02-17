@@ -5,7 +5,7 @@ import { Container } from '../../globalStyles'
 
 export const Nav = styled.nav`
     display: inline-block;
-    background: transparent;
+    background: white;
     padding-left: 38em;
     padding-right: 30em;
     height: 80px;
@@ -13,7 +13,7 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: right;
     font-size: 1.5rem;
-    position: sticky;
+    position: fixed;
     top: 10;
     z-index: 999;
 `
