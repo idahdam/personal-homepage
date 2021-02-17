@@ -7,7 +7,7 @@ import { ViewAll, TextBold, InfoSec, InfoRow, InfoColumn, InfoColumnOne, TextWra
 const Section = ({status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine, link}) => {
     return (
         <>
-          <InfoSec lightBg = {lightBg}>
+          <InfoSec lightBg={lightBg}>
             <Container>
                 <InfoRow imgStart={imgStart}>
                     <InfoColumnOne>

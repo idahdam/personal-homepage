@@ -12,14 +12,6 @@ export const Blog = {
     viewAll: "view all>"
 }
 
-export const Projects = {
-
-}
-
-export const Socials = {
-	
-}
-
 export const HomeObjOne = {
     lightBg: true,
     primary: false,
@@ -110,6 +102,25 @@ export const HomeObjFour = {
     link: "/Blogs"
 }
 
+export const SocialsData = {
+    status: false,
+    lightBg: true,
+    primary: false,
+    imgStart: 'start', 
+    lightTopLine: false, 
+    lightTextDesc: false, 
+    buttonLabel: 'Portfolio', 
+    description: '<view all', 
+    main: "latest",
+    mainBold: "Projects", 
+    lightText: false, 
+    topLine: '',
+    start: '',
+    img : require('../../images/homepage/Vector-Mid.png').default,
+    alt : 'Header Image',
+    link: "/Projects"
+}
+
 export const LightToDark = {
-    light: true
+    light: false
 }

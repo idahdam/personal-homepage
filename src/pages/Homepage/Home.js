@@ -1,16 +1,15 @@
 import React from 'react'
-import { Header, Section, Gradient } from '../../components'
-import { HomeObjOne, HomeObjTwo, HomeObjThree, LightToDark, HomeObjFour } from './Data'
+import { Header, Section, Socials } from '../../components'
+import { HomeObjOne, HomeObjTwo, HomeObjThree, SocialsData } from './Data'
 
 
 const Home = () => {
     return (
         <>
         <Header {...HomeObjOne}/>
-        <Gradient {...LightToDark}/>
         <Section {...HomeObjTwo}/>
         <Section {...HomeObjThree}/>
-        <Section {...HomeObjFour}/>
+        <Socials {...HomeObjTwo}/>
         </>
     )
 }

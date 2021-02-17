@@ -2,12 +2,11 @@ import styled from 'styled-components'
 
 export const InfoSec = styled.div`
     color: #fff;
-    padding: 50px 0 160px;
+    padding: 50px 0 80px;
     background: ${({lightBg}) => (lightBg ? '#fff': '#101522')};
 `
 
 export const InfoRow = styled.div`
-    padding-top: 2.5rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

@@ -4,3 +4,4 @@ export { default as Header } from './Header/Header'
 export { default as Footer } from './Footer/Footer'
 export { default as Gradient } from './Gradient/Gradient'
 export { default as Catalog } from './CatalogComponent/Catalog';
+export { default as Socials } from './Socials/Socials';
