@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../../globalStyles'
-import { InfoSec, SocialsCol, SocialsHeader, SocialsRow, SocialsDesc, SocialsItem, Twitter, SocialsItemText, Youtube, LinkedIn } from './Socials.Elements'
+import { InfoSec, SocialsCol, SocialsHeader, SocialsRow, SocialsDesc, SocialsItem, Twitter, SocialsFolks, Instagram, Mail, Github, Youtube, LinkedIn } from './Socials.Elements'
 
 const Socials = ({status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine, link}) => {
     return(
@@ -16,10 +16,11 @@ const Socials = ({status, lightBg, mainBold, imgStart, lightTopLine, lightTextDe
                             <LinkedIn size={50}/><SocialsItem>LinkedIn</SocialsItem>
                         </SocialsCol>
                         <SocialsCol>
-                            <Twitter size={50}/><SocialsItem>Twitter</SocialsItem>
-                            <Youtube size={50}/><SocialsItem>YouTube</SocialsItem>
-                            <LinkedIn size={50}/><SocialsItem>LinkedIn</SocialsItem>
+                            <Instagram size={50}/><SocialsItem>Instagram</SocialsItem>
+                            <Mail size={50}/><SocialsItem>Email</SocialsItem>
+                            <Github size={50}/><SocialsItem>Github</SocialsItem>
                         </SocialsCol>
+                        <SocialsFolks>---That's all folks!---</SocialsFolks>
                     </SocialsRow>
                 </Container>
             </InfoSec>

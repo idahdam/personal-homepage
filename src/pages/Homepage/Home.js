@@ -6,22 +6,10 @@ import { HomeObjOne, HomeObjTwo, HomeObjThree, SocialsData } from './Data'
 const Home = () => {
     return (
         <>
-        <Header 
-        {...HomeObjOne}
-        title="header"
-        subtitle="lol"
-        dark={true}
-        id="header"
-        />
-        <Section {...HomeObjTwo}
-        title="blogs"
-        subtitle="lol"
-        dark={true}
-        id="blogs"
-        />
+        <Header {...HomeObjOne}/>
+        <Section {...HomeObjTwo}/>
         <Section {...HomeObjThree}/>
         <Socials {...HomeObjTwo}/>
-        <Section {...HomeObjThree}/>
         </>
     )
 }

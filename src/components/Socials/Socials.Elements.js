@@ -1,6 +1,6 @@
 import { FaExpandArrowsAlt, FaLink } from 'react-icons/fa'
 import styled from 'styled-components'
-import { FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaMailBulk } from 'react-icons/fa'
+import { FaTwitter, FaLinkedin, FaInstagram, FaGithub,FaYoutube, FaMailBulk } from 'react-icons/fa'
 import { Container } from '../../globalStyles'
 
 export const InfoSec = styled.div`
@@ -8,7 +8,8 @@ export const InfoSec = styled.div`
     box-shadow:  inset 0px 105px 100px 0px #fff;
     color: #fff;
     padding: 50px 0 160px;
-    background-color: #fff linear-gradient(0deg, white, transparent 25%) bottom;
+    background: ${({lightBg}) => (lightBg ? '#fff': '#C4C4C4 linear-gradient(0deg, white, transparent 25%) bottom;')};
+    box-shadow:  ${({lightBg}) => (lightBg ? 'inset 0px 105px 100px 0px #fff;': 'inset 0px 105px 100px 0px #fff;')}
 `   
 
 export const SocialsHeader = styled.p`
@@ -27,6 +28,13 @@ export const SocialsDesc = styled.p`
     font-size: 1.5rem;
     padding-top: 1.5rem;
     margin-left: 31rem;
+`
+
+export const SocialsFolks = styled.p`
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    margin-left: 30rem;
 `
 
 export const SocialsRow = styled.div`
@@ -52,10 +60,6 @@ export const SocialsItem = styled.div`
     margin-left: 15px;
 `
 
-export const SocialsItemText = styled.p`
-
-`
-
 export const Twitter = styled(FaTwitter)`
     padding-top: 1px;
     margin-left: 2.5rem;
@@ -68,3 +72,17 @@ export const Youtube = styled(FaYoutube)`
     padding-top: 1px;
     margin-left: 2.5rem;
 `
+
+export const Instagram = styled(FaInstagram)`
+    padding-top: 1px;
+    margin-left: 2.5rem;
+`
+export const Github = styled(FaGithub)`
+    padding-top: 1px;
+    margin-left: 2.5rem;
+`
+export const Mail = styled(FaMailBulk)`
+    padding-top: 1px;
+    margin-left: 2.5rem;
+`
+

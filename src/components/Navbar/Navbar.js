@@ -14,6 +14,7 @@ import {
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import {Button} from    '../../globalStyles'
+
 import Scroll from 'react-scroll'
 
 const ScrollLink = Scroll.ScrollLink

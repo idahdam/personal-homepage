@@ -83,6 +83,7 @@ export const Subtitle = styled.p`
     padding-left: 2.5em;
     margin-bottom: 35px;
     font-size: 1.5rem;
+    font-weight: 550;
     line-height: 1.75rem;
     color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1': '#1c2237')};
 `
