@@ -31,6 +31,7 @@ export const HomeObjOne = {
 }
 
 export const HomeObjTwo = {
+    element: 'blog',
     status: true,
     lightBg: false,
     primary: false,
@@ -50,21 +51,22 @@ export const HomeObjTwo = {
 }
 
 export const BlogOne = {
-    title: "FUCK",
+    title: "FUCK1",
     img: require('../../images/homepage/Thumb.jpg').default,
 }
 
 export const BlogTwo = {
-    title: "FUCK",
+    title: "FUCK2",
     img: require('../../images/homepage/Thumb.jpg').default,
 }
 
 export const BlogThree = {
-    title: "FUCK",
+    title: "FUCK3",
     img: require('../../images/homepage/Thumb.jpg').default,
 }
 
 export const HomeObjThree = {
+    element: 'projects',
     status: false,
     lightBg: true,
     primary: false,
@@ -84,6 +86,7 @@ export const HomeObjThree = {
 }
 
 export const HomeObjFour = {
+    element: 'socials',
     status: true,
     lightBg: false,
     primary: false,

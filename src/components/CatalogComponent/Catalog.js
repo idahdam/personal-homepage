@@ -19,21 +19,18 @@ const Catalog = ({img, title, body, catalogColor}) => {
                         <CatalogContainerColor catalogColor="false">
                             <CatalogImg src={img}></CatalogImg>
                             <CatalogTitle>{title}</CatalogTitle>
-                            <CatalogBody>{body}</CatalogBody>
                         </CatalogContainerColor>
                     </CatalogContainerColumn>
                     <CatalogContainerColumn>
                         <CatalogContainerColor>
                             <CatalogImg src={img}></CatalogImg>
                             <CatalogTitle>{title}</CatalogTitle>
-                            <CatalogBody>{body}</CatalogBody>
                         </CatalogContainerColor>
                     </CatalogContainerColumn>
                     <CatalogContainerColumn>
                         <CatalogContainerColor catalogColor="false">
                             <CatalogImg src={img}></CatalogImg>
                             <CatalogTitle>{title}</CatalogTitle>
-                            <CatalogBody>{body}</CatalogBody>
                         </CatalogContainerColor>
                     </CatalogContainerColumn>
                 </CatalogContainerRow>

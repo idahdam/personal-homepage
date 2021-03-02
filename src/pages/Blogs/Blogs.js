@@ -1,9 +1,11 @@
 import React from 'react'
-
+import { Container } from '../../globalStyles';
 const Blogs = () => {
     return (
-        <>
-            <p>Box page.</p>
+        <><br/><br/><br/><br/>
+            <Container>
+                <p>asd</p>
+            </Container>
         </>
     )
 }

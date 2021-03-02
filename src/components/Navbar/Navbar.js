@@ -14,6 +14,9 @@ import {
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import {Button} from    '../../globalStyles'
+import Scroll from 'react-scroll'
+
+const ScrollLink = Scroll.ScrollLink
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
@@ -46,8 +49,8 @@ const Navbar = () => {
                     </MobileIcon>
                     <NavMenu onClick={handleClick} click={click}>
                         <NavItem>
-                            <NavLinks to="/">Home</NavLinks>
-                        </NavItem>
+                        <NavLinks to="/">Home</NavLinks>
+                        </NavItem> 
                         <NavItem>
                             <NavLinks to="/Blogs">Blogs</NavLinks>
                         </NavItem>

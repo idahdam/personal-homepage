@@ -3,15 +3,16 @@ import { Catalog } from '../index';
 import { BlogOne } from '../../pages/Homepage/Data';
 import { Container, Button } from '../../globalStyles'
 import { ViewAll, TextBold, InfoSec, InfoRow, InfoColumn, InfoColumnOne, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img } from './Section.Elements'
+import { Element } from 'react-scroll'
 
-const Section = ({status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine, link}) => {
+const Section = ({element, status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine, link}) => {
     return (
         <>
           <InfoSec lightBg={lightBg}>
             <Container>
                 <InfoRow imgStart={imgStart}>
                     <InfoColumnOne>
-                        <TextWrapper>
+                        <TextWrapper status={status}>
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{main}</Heading>
                                 <TextBold status={status}>{mainBold}</TextBold>

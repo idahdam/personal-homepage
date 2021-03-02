@@ -15,25 +15,26 @@ export const CatalogContainerRow = styled.div`
 export const CatalogContainerColor = styled.div`
     background-color: ${({catalogColor}) => (catalogColor ? '#811313': '#808080' )};
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 25px;
 `
 
 export const CatalogContainerColumn = styled.div`
+
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
 `
 export const CatalogImg = styled.img`
+    padding-top: 5px;
     border-radius: 25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    padding: 1px;
-    height: 177px;
-    width: 177px;
+    width: 100%;
+    height: 200px;
+    width: 250px;
     object-fit: cover;
 `
 
@@ -42,6 +43,7 @@ export const CatalogTitle = styled.div`
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 1.25rem;
 `
 
 export const CatalogBody = styled.div`

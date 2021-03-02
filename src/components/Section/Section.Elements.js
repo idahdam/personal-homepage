@@ -10,6 +10,7 @@ export const InfoSec = styled.div`
 export const InfoRow = styled.div`
     margin-top: 5rem;
     display: flex;
+    height: 100%;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: ${({imgStart}) => (imgStart ? 'row-reverse': 'row')}
@@ -30,7 +31,7 @@ export const InfoColumn = styled.div`
 `
 
 export const InfoColumnOne = styled.div`
-    width: 40%;
+    width: 25%;
     margin-bottom: 15px;
     padding-right: 2px;
     column-gap: 40px;
@@ -44,8 +45,9 @@ export const InfoColumnOne = styled.div`
 
 
 export const TextWrapper = styled.div`
-    margin-left: 1rem;
-    margin-right: 15rem;
+    margin-left:  ${({status}) => (status ? '2.5rem': '1rem' )};
+    margin-right:  ${({status}) => (status ? '0.5rem': '3.75rem' )};
+    padding-left:  ${({status}) => (status ? '2rem': '' )};
     @media screen and (max-width: 768px){
         padding-bottom: 76px;
     }
@@ -101,7 +103,7 @@ export const TextBold = styled.p`
     font-size: 4rem;
     padding-left: 0.5rem;
     margin-left: 2rem;
-    margin-right: ${({status}) => (status ? '2.75rem': '-3.5rem' )}
+    margin-right: ${({status}) => (status ? '3rem': '-3.5rem' )}
 `
 
 export const ViewAll = styled.a`
