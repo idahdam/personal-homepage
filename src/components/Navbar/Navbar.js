@@ -41,7 +41,7 @@ const Navbar = () => {
 
     window.addEventListener('resize', showButton) 
     return(
-        <>
+        <Nav>
         <IconContext.Provider value = {{color: '#fff'}}>
             <Nav>
                 <NavbarContainer>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 </NavbarContainer>
             </Nav>  
         </IconContext.Provider>
-    </>
+    </Nav>
     )
 }
 

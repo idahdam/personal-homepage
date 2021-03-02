@@ -25,6 +25,13 @@ export const CatalogContainerColumn = styled.div`
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    transform: scale(1);
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.115);
+        transition: 0.5s;
+    }
 `
 export const CatalogImg = styled.img`
     padding-top: 5px;

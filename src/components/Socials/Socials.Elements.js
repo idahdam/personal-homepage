@@ -55,34 +55,83 @@ export const SocialsCol = styled.div`
 
 export const SocialsItem = styled.div`
     margin-bottom: 100px;
+    text-align: center;
     font-size: 2rem;
-    margin-top: 10px;
-    margin-left: 15px;
+    padding-right: 3.5rem;
+    transform: translateX(-2%);
 `
 
 export const Twitter = styled(FaTwitter)`
     padding-top: 1px;
     margin-left: 2.5rem;
+    transform: scale(1);
+    transition: 0.3s;
+
+    &:hover{
+        color: #1DA1F2;
+        transform: scale(1.25);
+        transition: 0.3s;
+    }
 `
 export const LinkedIn = styled(FaLinkedin)`
     padding-top: 1px;
     margin-left: 2.5rem;
+    transform: scale(1);
+    transition: 0.3s;
+
+    &:hover{
+        color: #2867B2;
+        transform: scale(1.25);
+        transition: 0.3s;
+    }
 `
 export const Youtube = styled(FaYoutube)`
     padding-top: 1px;
     margin-left: 2.5rem;
+    transform: scale(1);
+    transition: 0.3s;
+
+    &:hover{
+        color: #FF0000;
+        transform: scale(1.25);
+        transition: 0.3s;
+    }
 `
 
 export const Instagram = styled(FaInstagram)`
     padding-top: 1px;
     margin-left: 2.5rem;
+    transform: scale(1);
+    transition: 0.3s;
+
+    &:hover{
+        color: #E1306C;;
+        transform: scale(1.25);
+        transition: 0.3s;
+    }
 `
 export const Github = styled(FaGithub)`
     padding-top: 1px;
     margin-left: 2.5rem;
+    transform: scale(1);
+    transition: 0.3s;
+
+    &:hover{
+        filter: invert(100%);
+        transform: scale(1.25);
+        transition: 0.3s;
+    }
 `
 export const Mail = styled(FaMailBulk)`
     padding-top: 1px;
     margin-left: 2.5rem;
+    transform: scale(1);
+    transition: 0.3s;
+
+    &:hover{
+        color: yellow;
+        transform: scale(1.25);
+        transition: 0.3s;
+    }
 `
 
