@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import ImgBack from '../../images/homepage/Mask.png'
 
 export const InfoSec = styled.div`
     color: #fff;
@@ -6,6 +7,9 @@ export const InfoSec = styled.div`
     background: ${({lightBg}) => (lightBg ? '#fff': '#C4C4C4 linear-gradient(0deg, white, transparent 25%) bottom;')};
     box-shadow:  ${({lightBg}) => (lightBg ? 'inset 0px 105px 100px 0px #fff;': 'inset 0px 105px 100px 0px #fff;')}
 `   
+export const ImgBg = styled.img`
+    display: none;
+`
 
 export const InfoRow = styled.div`
     margin-top: 5rem;
@@ -31,6 +35,8 @@ export const InfoColumn = styled.div`
 `
 
 export const InfoColumnOne = styled.div`
+    background-image: url(${ImgBack});
+    background-repeat: no-repeat, repeat;
     width: 25%;
     margin-bottom: 15px;
     padding-right: 2px;

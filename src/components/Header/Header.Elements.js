@@ -97,11 +97,18 @@ export const ImgWrapper = styled.div`
 
 export const Img = styled.img`
     padding-right: 0;
+    transform: scale(1.2);
     border: 0;
     max-width: 100%;
     vertical-align: middle;
+    max-height: 100%;
     display: inline-block;
-    max-height: 600px;
+    transition: 0.5s;
+    &:hover{
+        filter: invert(100%);
+        transform: scale(1.25);
+        transition: 0.5s;
+    }
 `
 
 export const TextBold = styled.p`

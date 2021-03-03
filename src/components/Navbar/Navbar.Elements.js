@@ -6,15 +6,16 @@ import { Container } from '../../globalStyles'
 
 export const Nav = styled.nav`
     display: inline-block;
-    background: white;
-    padding-left: 38em;
-    padding-right: 30em;
+    width: 150%;
     height: 80px;
     display: flex;
+    margin-left: 20rem;
+    text-align: right;
+    background: transparent;
     justify-content: center;
-    align-items: right;
     font-size: 1.5rem;
-    position: fixed;
+    right: 10;
+    position: absolute;
     top: 10;
     z-index: 999;
 `
