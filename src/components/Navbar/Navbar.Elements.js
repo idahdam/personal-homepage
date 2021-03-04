@@ -6,17 +6,13 @@ import { Container } from '../../globalStyles'
 
 export const Nav = styled.nav`
     display: inline-block;
-    width: 150%;
+    width: 100%;
     height: 80px;
     display: flex;
-    margin-left: 20rem;
-    text-align: right;
-    background: transparent;
     justify-content: center;
     font-size: 1.5rem;
-    right: 10;
+    text-align: center;
     position: absolute;
-    top: 10;
     z-index: 999;
 `
 
@@ -58,7 +54,8 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
     display: flex;
     align-items: right;
-    margin-left: -4rem;
+    margin-left: 50rem;
+    position: fixed;
     list-style: none;
     text-align: none; 
 

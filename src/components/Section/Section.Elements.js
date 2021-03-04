@@ -1,3 +1,4 @@
+
 import styled from 'styled-components'
 import ImgBack from '../../images/homepage/Mask.png'
 
@@ -12,9 +13,11 @@ export const ImgBg = styled.img`
 `
 
 export const InfoRow = styled.div`
+    background-image: url(${ImgBack});  
+    background-size: 50% 100%;
     margin-top: 5rem;
     display: flex;
-    height: 100%;
+    height: 150%;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: ${({imgStart}) => (imgStart ? 'row-reverse': 'row')}
@@ -35,7 +38,6 @@ export const InfoColumn = styled.div`
 `
 
 export const InfoColumnOne = styled.div`
-    background-image: url(${ImgBack});
     background-repeat: no-repeat, repeat;
     width: 25%;
     margin-bottom: 15px;

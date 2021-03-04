@@ -51,17 +51,17 @@ export const HomeObjTwo = {
 }
 
 export const BlogOne = {
-    title: "FUCK1",
+    title: "Post 1",
     img: require('../../images/homepage/Thumb.jpg').default,
 }
 
 export const BlogTwo = {
-    title: "FUCK2",
+    title: "Post 2",
     img: require('../../images/homepage/Thumb.jpg').default,
 }
 
 export const BlogThree = {
-    title: "FUCK3",
+    title: "Post 3",
     img: require('../../images/homepage/Thumb.jpg').default,
 }
 

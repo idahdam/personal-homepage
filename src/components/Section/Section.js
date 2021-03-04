@@ -4,7 +4,7 @@ import { BlogOne } from '../../pages/Homepage/Data';
 import { Container, Button } from '../../globalStyles'
 import { ImgBg, ViewAll, TextBold, InfoSec, InfoRow, InfoColumn, InfoColumnOne, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img } from './Section.Elements'
 import { Element } from 'react-scroll'
-import ImgBack from '../../images/homepage/Mask.png'
+
 
 const Section = ({element, flip, status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine, link}) => {
     return (
