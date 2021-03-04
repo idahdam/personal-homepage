@@ -12,8 +12,10 @@ export const Nav = styled.nav`
     justify-content: center;
     font-size: 1.5rem;
     text-align: center;
-    position: absolute;
+    position: fixed;
     z-index: 999;
+    background-color: ${({scroll}) => (scroll ? 'white' : 'transparent')};
+    transition: 0.5s;
 `
 
 export const NavbarContainer = styled(Container)`
@@ -58,6 +60,7 @@ export const NavMenu = styled.ul`
     position: fixed;
     list-style: none;
     text-align: none; 
+    color: ${({scroll}) => (scroll ? 'opacity 1.4' : '')};
 
     @media screen and (max-width: 960px){
         display:flex;

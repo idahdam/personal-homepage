@@ -53,6 +53,14 @@ export const CatalogTitle = styled.div`
     font-size: 1.25rem;
 `
 
+export const CatalogContainerHref = styled.a`
+    color: white;
+    transition: 0.5s;
+    &:hover{
+        color: ${({catalogColor}) => (catalogColor ? '#808080': '#811313 ' )};
+        transition: 0.5s;
+    }
+`
 export const CatalogBody = styled.div`
 
 `

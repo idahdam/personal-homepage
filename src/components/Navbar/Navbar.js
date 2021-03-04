@@ -22,7 +22,12 @@ const ScrollLink = Scroll.ScrollLink
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const [button, setButton] = useState(true)
- 
+    const [isNavbar, setNavbar] = useState(false);
+
+    const handleScroll = () => {
+      window.scrollY > 100 ? setNavbar(true) : setNavbar(false);
+    };
+
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
     const showButton = () => {
@@ -37,18 +42,23 @@ const Navbar = () => {
     
     useEffect(() => {
         showButton()
-    }, [])
+        window.addEventListener("scroll", handleScroll);
+        console.log(isNavbar)
+        return () => {
+          window.removeEventListener("scroll", () => handleScroll);
+        };
+    }, [handleScroll])
 
     window.addEventListener('resize', showButton) 
     return(
         <Nav>
         <IconContext.Provider value = {{color: '#fff'}}>
-            <Nav>
+            <Nav scroll={isNavbar}>
                 <NavbarContainer>
                     <MobileIcon onClick={handleClick}>
                         {click ? <FaTimes/> : <FaBars/>}
                     </MobileIcon>
-                    <NavMenu onClick={handleClick} click={click}>
+                    <NavMenu onClick={handleClick} click={click} >
                         <NavItem>
                         <NavLinks to="/">Home</NavLinks>
                         </NavItem> 
