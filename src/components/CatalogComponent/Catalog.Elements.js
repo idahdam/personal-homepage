@@ -43,6 +43,15 @@ export const CatalogImg = styled.img`
     height: 200px;
     width: 250px;
     object-fit: cover;
+    filter: grayscale(100%);
+    transition: 0.3s;
+
+    &:hover{
+        transition: 0.3s;
+        filter: none;
+    }
+
+
 `
 
 export const CatalogTitle = styled.div`

@@ -46,7 +46,7 @@ export const InfoColumnImg = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 40px;;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     @media screen and (max-width: 768px){
         padding-bottom: 76px;
     }
@@ -74,8 +74,13 @@ export const HeadingBold = styled.span`
     background-clip: content-box;
     text-decoration: none;
     font-size: 4rem;
-    padding-right: 18rem;
-    color: white;
+    padding-right: 5rem;
+    transition: 0.5s;  
+
+    &:hover{
+        color: white;
+        transition: 0.3s;
+    }
 `
 
 export const Subtitle = styled.p`
@@ -97,7 +102,7 @@ export const ImgWrapper = styled.div`
 
 export const Img = styled.img`
     padding-right: 0;
-    transform: scale(1.2);
+    transform: scale(1);
     border: 0;
     max-width: 100%;
     vertical-align: middle;
@@ -106,7 +111,7 @@ export const Img = styled.img`
     transition: 0.5s;
     &:hover{
         filter: invert(100%);
-        transform: scale(1.25);
+        transform: scale(1.10);
         transition: 0.5s;
     }
 `
