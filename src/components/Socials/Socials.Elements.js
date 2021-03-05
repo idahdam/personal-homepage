@@ -2,6 +2,7 @@ import { FaExpandArrowsAlt, FaLink } from 'react-icons/fa'
 import styled from 'styled-components'
 import { FaTwitter, FaLinkedin, FaInstagram, FaGithub,FaYoutube, FaMailBulk } from 'react-icons/fa'
 import { Container } from '../../globalStyles'
+import ImgBack from '../../images/homepage/Mask.png'
 
 export const InfoSec = styled.div`
     background-color: #C4C4C4;
@@ -38,6 +39,10 @@ export const SocialsFolks = styled.p`
 `
 
 export const SocialsRow = styled.div`
+    background-image: url(${ImgBack});  
+    background-size: 80% 100%;
+    background-repeat: repeat-y;
+    background-position: left top;
     margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
@@ -48,22 +53,30 @@ export const SocialsCol = styled.div`
     margin-bottom: 15px;
     padding-right: 10rem;
     margin-left: 5rem;
-    padding-left: 10rem;
+    padding-left: 5rem;
     flex: 1;
     color: black;
 `
+export const SocialLink = styled.a`
+    color: #808080;
+    transition: 0.5s;
 
+    &:hover{
+        color: #811313;
+        transition: 0.5s;
+    }
+`
 export const SocialsItem = styled.div`
     margin-bottom: 100px;
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
-    padding-right: 3.5rem;
-    transform: translateX(-2%);
+    padding-right: 2.5rem;
+    transform: translate(50%, -120%);
 `
 
 export const Twitter = styled(FaTwitter)`
     padding-top: 1px;
-    margin-left: 2.5rem;
+    margin-left: 5rem;
     transform: scale(1);
     transition: 0.3s;
 
@@ -75,7 +88,7 @@ export const Twitter = styled(FaTwitter)`
 `
 export const LinkedIn = styled(FaLinkedin)`
     padding-top: 1px;
-    margin-left: 2.5rem;
+    margin-left: 5rem;
     transform: scale(1);
     transition: 0.3s;
 
@@ -87,7 +100,7 @@ export const LinkedIn = styled(FaLinkedin)`
 `
 export const Youtube = styled(FaYoutube)`
     padding-top: 1px;
-    margin-left: 2.5rem;
+    margin-left: 5rem;
     transform: scale(1);
     transition: 0.3s;
 
@@ -100,7 +113,7 @@ export const Youtube = styled(FaYoutube)`
 
 export const Instagram = styled(FaInstagram)`
     padding-top: 1px;
-    margin-left: 2.5rem;
+    margin-left: 5rem;  
     transform: scale(1);
     transition: 0.3s;
 
@@ -112,7 +125,7 @@ export const Instagram = styled(FaInstagram)`
 `
 export const Github = styled(FaGithub)`
     padding-top: 1px;
-    margin-left: 2.5rem;
+    margin-left: 5rem;
     transform: scale(1);
     transition: 0.3s;
 
@@ -124,7 +137,7 @@ export const Github = styled(FaGithub)`
 `
 export const Mail = styled(FaMailBulk)`
     padding-top: 1px;
-    margin-left: 2.5rem;
+    margin-left: 5rem;
     transform: scale(1);
     transition: 0.3s;
 

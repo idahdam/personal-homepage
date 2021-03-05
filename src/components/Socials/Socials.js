@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../../globalStyles'
-import { InfoSec, SocialsCol, SocialsHeader, SocialsRow, SocialsDesc, SocialsItem, Twitter, SocialsFolks, Instagram, Mail, Github, Youtube, LinkedIn } from './Socials.Elements'
+import { InfoSec, SocialLink, SocialsCol, SocialsHeader, SocialsRow, SocialsDesc, SocialsItem, Twitter, SocialsFolks, Instagram, Mail, Github, Youtube, LinkedIn } from './Socials.Elements'
 
 const Socials = ({status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine, link}) => {
     return(
@@ -11,14 +11,14 @@ const Socials = ({status, lightBg, mainBold, imgStart, lightTopLine, lightTextDe
                     <SocialsDesc>You can find me here.</SocialsDesc>
                     <SocialsRow>
                         <SocialsCol>
-                            <Twitter size={50}/><SocialsItem>Twitter</SocialsItem>
-                            <Youtube size={50}/><SocialsItem>YouTube</SocialsItem>
-                            <LinkedIn size={50}/><SocialsItem>LinkedIn</SocialsItem>
+                            <Twitter size={50}/><SocialsItem><SocialLink href="https://twitter.com/idahdam">Twitter</SocialLink></SocialsItem>
+                            <Youtube size={50}/><SocialsItem><SocialLink href="https://youtube.com">Youtube</SocialLink></SocialsItem>
+                            <LinkedIn size={50}/><SocialsItem><SocialLink href="https://www.linkedin.com/in/idahdam/">LinkedIn</SocialLink></SocialsItem>
                         </SocialsCol>
                         <SocialsCol>
-                            <Instagram size={50}/><SocialsItem>Instagram</SocialsItem>
-                            <Mail size={50}/><SocialsItem>Email</SocialsItem>
-                            <Github size={50}/><SocialsItem>Github</SocialsItem>
+                            <Instagram size={50}/><SocialsItem><SocialLink href="https://instagram.com/idahdam">Instagram</SocialLink></SocialsItem>
+                            <Mail size={50}/><SocialsItem><SocialLink href="#">Email</SocialLink></SocialsItem>
+                            <Github size={50}/><SocialsItem><SocialLink href="https://github.com/idahdam">Github</SocialLink></SocialsItem>
                         </SocialsCol>
                         <SocialsFolks>---That's all folks!---</SocialsFolks>
                     </SocialsRow>

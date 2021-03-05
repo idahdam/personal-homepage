@@ -10,13 +10,15 @@ export const CatalogContainerRow = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    
 `
 
 export const CatalogContainerColor = styled.div`
     background-color: ${({catalogColor}) => (catalogColor ? '#811313': '#808080' )};
     margin: 10px;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 `
 
 export const CatalogContainerColumn = styled.div`
