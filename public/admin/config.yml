@@ -17,8 +17,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-
-collections:
   - name: "projects" # Used in routes, e.g., /admin/collections/blog
     label: "Projects" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
