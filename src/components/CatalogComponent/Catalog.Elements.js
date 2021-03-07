@@ -37,7 +37,7 @@ export const CatalogContainerColumn = styled.div`
 `
 export const CatalogImg = styled.img`
     padding-top: 5px;
-    border-radius: 25px;
+    border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
