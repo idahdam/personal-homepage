@@ -1,8 +1,8 @@
 const path = require("path")
 const fs = require("fs")
 
-const dirPath = path.join(__dirname, "../posts")
-const dirPathPages = path.join(__dirname, "../src/pages/content")
+const dirPath = path.join(__dirname, "../blog")
+// const dirPathPages = path.join(__dirname, "../src/pages/content")
 let postlist = []
 let pagelist = []
 
@@ -92,7 +92,7 @@ const getPosts = () => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/posts.json", data)
+                    fs.writeFileSync("src/blog.json", data)
                 }
             })
         })
@@ -121,4 +121,4 @@ const getPages = () => {
 }
 
 getPosts()
-getPages()
+// getPages()
