@@ -17,7 +17,7 @@ const Blogs = () => {
                         <div key={i} className="post-card">
                              <div className="img-container">
                                 {post.thumbnail && <img className="thumbnail" width={80} src={post.thumbnail} alt=""/> }
-                                <h2 className="post-title"><Link className="links" to={`/post/${post.id}`}>{post.title}</Link></h2>
+                                <h2 className="post-title"><Link className="links" to={`/blog/${post.id}`}>{post.title}</Link></h2>
                             </div>
                             <small>Published on {post.date} by {post.author}</small>
                             <hr/>
