@@ -6,7 +6,7 @@ import { ImgBg, ViewAll, TextBold, InfoSec, InfoRow, InfoColumn, InfoColumnOne, 
 import { Element } from 'react-scroll'
 
 
-const Section = ({element, flip, status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine, link}) => {
+const Section = ({proj, status, lightBg, mainBold, imgStart, lightTopLine, lightTextDesc, description, main, lightText, topLine, link}) => {
     return (
         <>
           <InfoSec lightBg={lightBg}>
@@ -23,7 +23,7 @@ const Section = ({element, flip, status, lightBg, mainBold, imgStart, lightTopLi
                         </TextWrapper>
                     </InfoColumnOne>
                     <InfoColumn>
-                        <Catalog {...BlogOne}/>
+                        <Catalog proj={proj}/>
                     </InfoColumn>
                 </InfoRow>
             </Container>

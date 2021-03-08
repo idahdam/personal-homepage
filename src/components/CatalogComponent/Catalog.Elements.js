@@ -22,7 +22,6 @@ export const CatalogContainerColor = styled.div`
 `
 
 export const CatalogContainerColumn = styled.div`
-
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -64,7 +63,8 @@ export const CatalogTitle = styled.div`
     font-size: 1.25rem;
 `
 
-export const CatalogContainerHref = styled.a`
+export const CatalogContainerHref = styled(Link)`
+    text-decoration:none;
     color: white;
     transition: 0.5s;
     &:hover{

@@ -3,14 +3,23 @@ import { Container } from '../../globalStyles';
 import { Link } from 'react-router-dom';
 import Markdown from "react-markdown"
 import projectsList from "../../projects.json"
+import {
+    ProjectsListHeaderContainer,
+    ProjectsListHeaderTitle,
+    ProjectsListHeaderDesc
+
+} from './Projects.elements';
 
 const Projects = () => {
     const excerptList = projectsList.map(post => {
         return post.content.split(" ").slice(0, 20).join(" ") + "..."
     })
     return (
-        <div className="postlist">
-            <h1 className="title">All Projects</h1>
+        <Container>
+            <ProjectsListHeaderContainer>
+                <ProjectsListHeaderTitle>Projects</ProjectsListHeaderTitle>
+                <ProjectsListHeaderDesc>an individual or collaborative enterprise that is carefully planned to achieve a particular aim.</ProjectsListHeaderDesc>
+            </ProjectsListHeaderContainer>
             {projectsList.length && 
                 projectsList.map((post, i) => {
                     return (
@@ -27,7 +36,7 @@ const Projects = () => {
                     )
                 })
             }
-        </div>
+        </Container>
     )
 }
 

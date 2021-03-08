@@ -31,6 +31,7 @@ export const HomeObjOne = {
 }
 
 export const HomeObjTwo = {
+    proj: true,
     element: 'blog',
     status: true,
     lightBg: false,
@@ -66,6 +67,7 @@ export const BlogThree = {
 }
 
 export const HomeObjThree = {
+    proj: false,
     element: 'projects',
     status: false,
     lightBg: true,
