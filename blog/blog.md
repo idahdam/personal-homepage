@@ -2,6 +2,14 @@
 title: First blog post!
 author: idahdam
 date: 2021-03-07T15:32:28.151Z
-thumbnail: /images/4.png
+thumbnail: /images/photo-1596443686812-2f45229eebc3.jpg
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hello!
+
+This is my second time writing this intro. I dont like it really. I was talking about how excited I was working on this project, but... yeah. It's 12.10 AM and I'm tired.
+
+Anyway, can't wait to blog and share my projects to the world! 
+
+For those who wanna know, I'm using Netlify to deploy the site, was pretty novel to me but here we are! 
+
+See you.
