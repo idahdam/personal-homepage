@@ -18,7 +18,7 @@ const Projects = () => {
         <Container>
             <ProjectsListHeaderContainer>
                 <ProjectsListHeaderTitle>Projects</ProjectsListHeaderTitle>
-                <ProjectsListHeaderDesc>an individual or collaborative enterprise that is carefully planned to achieve a particular aim.</ProjectsListHeaderDesc>
+                <ProjectsListHeaderDesc>(noun) an individual or collaborative enterprise that is carefully planned to achieve a particular aim.</ProjectsListHeaderDesc>
             </ProjectsListHeaderContainer>
             {projectsList.length && 
                 projectsList.map((post, i) => {
