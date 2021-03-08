@@ -1,5 +1,5 @@
 ---
-title: 3rd projects!
+title: 3rd project! WOOHOO!
 author: idahdam
 date: 2021-03-08T11:58:44.221Z
 thumbnail: /images/screenshot-9-.png
