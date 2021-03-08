@@ -1,34 +1,35 @@
-import React from 'react'
-import { Container } from '../../globalStyles';
-import { Link } from 'react-router-dom';
+import React from "react"
+import { Redirect } from "react-router-dom"
 import Markdown from "react-markdown"
-import bloglist from "../../blog.json"
+import postlist from "../../blog.json"
 
-const Blogs = () => {
-    const excerptList = bloglist.map(post => {
-        return post.content.split(" ").slice(0, 20).join(" ") + "..."
+const BlogDetails = (props) => {
+    const validId = parseInt(props.match.params.id)
+    if (!validId) {
+        return <Redirect to="/404" />
+    }
+    const fetchedPost = {}
+    let postExists = false
+    postlist.forEach((post, i) => {
+        if (validId === post.id) {
+            fetchedPost.title = post.title ? post.title : "No title given"
+            fetchedPost.date = post.date ? post.date : "No date given"
+            fetchedPost.author = post.author ? post.author : "No author given"
+            fetchedPost.content = post.content ? post.content : "No content given"
+            postExists = true
+        }
     })
+    if (postExists === false) {
+        return <Redirect to="/404" />
+    }
     return (
-        <div className="bloglist">
-            <h1 className="title">All Posts</h1>
-            {bloglist.length && 
-                bloglist.map((post, i) => {
-                    return (
-                        <div key={i} className="post-card">
-                             <div className="img-container">
-                                {post.thumbnail && <img className="thumbnail" width={80} src={post.thumbnail} alt=""/> }
-                                <h2 className="post-title"><Link className="links" to={`/blog/${post.id}`}>{post.title}</Link></h2>
-                            </div>
-                            <small>Published on {post.date} by {post.author}</small>
-                            <hr/>
-                            <Markdown source={excerptList[i]} escapeHtml={false} />
-                            <small><Link className="links" to={`/blog/${post.id}`}>Read more</Link></small>
-                        </div>
-                    )
-                })
-            }
+        <div className="post">
+            <h2>{fetchedPost.title}</h2>
+            <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
+            <hr/>
+            <Markdown source={fetchedPost.content} escapeHtml={false} />
         </div>
     )
 }
 
-export default Blogs;
+export default BlogDetails
