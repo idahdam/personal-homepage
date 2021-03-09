@@ -19,6 +19,11 @@ import {
 
 let counter = 0;
 const Projects = () => {
+
+    const componentDidUpdate = () => {
+        window.scrollTo(0,0);
+    }
+
     const excerptList = projectsList.map(post => {
         return post.content.split(" ").slice(0, 20).join(" ") + "..."
     })
