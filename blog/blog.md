@@ -9,8 +9,14 @@ Hello!
 <br/>
 This is my second time writing this intro. I dont like it really. I was talking about how excited I was working on this project, but... yeah. It's 12.10 AM and I'm tired.
 
+<br/>
+
 Anyway, can't wait to blog and share my projects to the world! 
 
+<br/>
+
 For those who wanna know, I'm using Netlify to deploy the site, was pretty novel to me but here we are! 
+
+<br/>
 
 See you.
