@@ -51,8 +51,6 @@ export const CatalogImg = styled.img`
         transition: 0.3s;
         filter: none;
     }
-
-
 `
 
 export const CatalogTitle = styled.div`
