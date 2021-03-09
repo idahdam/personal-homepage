@@ -4,9 +4,7 @@ author: idahdam
 date: 2021-03-07T15:32:28.151Z
 thumbnail: /images/photo-1596443686812-2f45229eebc3.jpg
 ---
-Hello!
-
-
+Hello!\s\s
 This is my second time writing this intro. I dont like it really. I was talking about how excited I was working on this project, but... yeah. It's 12.10 AM and I'm tired.
 
 
