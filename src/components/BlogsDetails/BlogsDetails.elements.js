@@ -26,6 +26,7 @@ export const BlogsDetailsPublished = styled.div`
 `
 
 export const BlogsDetailsMarkdown = styled(Markdown)`
+    line-height: 2.5rem;  
     padding-top: 20px;
     font-size: 1.25rem;
 `

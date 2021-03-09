@@ -47,7 +47,7 @@ const Catalog = ({proj}) => {
                             <CatalogContainerHref to={`/Projects/${post.id}`} catalogColor={i%2 == 0 ? false : true}>
                             <CatalogContainerColor catalogColor={i%2 == 0 ? false : true}>
                                 <CatalogImg src={post.thumbnail} alt="alt"></CatalogImg>
-                                <CatalogTitle catalogColor={i%2 == 0 ? false : true}>{post.title.length < 30 ? post.title : post.title.split(" ").slice(0, 5).join(" ") + "..." }</CatalogTitle>
+                                <CatalogTitle catalogColor={i%2 == 0 ? false : true}>{post.title.length < 30 ? post.title : post.title.split(" ").slice(0, 4).join(" ") + "..." }</CatalogTitle>
                             </CatalogContainerColor>
                             </CatalogContainerHref>
                         </CatalogContainerColumn>

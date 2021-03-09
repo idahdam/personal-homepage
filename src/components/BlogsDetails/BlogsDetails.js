@@ -39,6 +39,7 @@ const BlogsDetails = (props) => {
             <BlogsDetailsBodyContainer>
                 <hr/>
                 <BlogsDetailsMarkdown source={fetchedPost.content} escapeHtml={false} />
+                {console.log(fetchedPost.content)}
             </BlogsDetailsBodyContainer>
         </BlogsDetailsContainer>
     )
