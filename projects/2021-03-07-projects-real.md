@@ -20,7 +20,7 @@ Using only HTML, simple Javascript, Adobe Dreamweaver, I made my dream blogging 
 \
 <br/>
 
-<a href="/"><image src="https://raw.githubusercontent.com/idahdam/personal-homepage/master/public/images/screenshot-157-.png" width="500" alt="#"/></a>
+<image src="https://raw.githubusercontent.com/idahdam/personal-homepage/master/public/images/screenshot-157-.png" width="1000" style="display:block;margin:0 auto;" alt="#"/>
 
 <br/>
 
