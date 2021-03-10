@@ -1,8 +1,8 @@
 ---
-title: Template post 2
+title: Dummy
 author: idahdam
 date: 2021-03-09T11:23:56.441Z
-thumbnail: /images/116382.jpg
+thumbnail: https://i.pinimg.com/originals/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.png
 ---
 <!--StartFragment-->
 
