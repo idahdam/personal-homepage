@@ -24,11 +24,11 @@ Using only HTML, simple Javascript, Adobe Dreamweaver, I made my dream blogging 
 
 <br/>
 
-Anyway, I love to write and make stupid things. Stupid is a relative term, in which I would **LOVE** to call myself stupid for wanting to learn more. Stay up-to-date with my content, especially I'm matured enough to determine what's right or wrong. 
+Anyway, I love to write and make stupid things. Stupid is a relative term, in which I would **LOVE** to call myself stupid for wanting to learn more. Stay up-to-date with my content, especially realizing that I'm matured enough to determine what's right or wrong. 
 
 <br/>
 
-This project is not 100% finished. I will update this website whenever I want to and my taste is bad so please don't expect too much. If this project is working for a long time, I might even update my navbar with my portfolio. 
+This project is not 100% finished. I will update this website whenever I want to and my taste is bad so please don't expect too much. If this project is working for a long time, I might even update my navbar with my portfolio. This website is also not a mobile-friendly website. Yet. 
 
 <br/>
 
