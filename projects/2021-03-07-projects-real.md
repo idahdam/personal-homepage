@@ -24,7 +24,7 @@ Using only HTML, simple Javascript, Adobe Dreamweaver, I made my dream blogging 
 
 <br/>
 
-Anyway, I love to write and make stupid things. Stupid is a relative term, in which I would to call myself stupid for wanting to learn more. Stay up-to-date with my content, especially I'm matured enough to determine what's right or wrong. 
+Anyway, I love to write and make stupid things. Stupid is a relative term, in which I would **LOVE** to call myself stupid for wanting to learn more. Stay up-to-date with my content, especially I'm matured enough to determine what's right or wrong. 
 
 <br/>
 
