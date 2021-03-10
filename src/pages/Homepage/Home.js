@@ -9,7 +9,7 @@ const Home = () => {
         <Header {...HomeObjOne}/>
         <Section {...HomeObjTwo}/>
         <Section {...HomeObjThree}/>
-        <Socials {...HomeObjTwo}/>
+        <Socials/>
         </>
     )
 }

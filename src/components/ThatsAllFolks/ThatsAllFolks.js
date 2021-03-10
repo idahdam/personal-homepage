@@ -2,11 +2,11 @@ import React from 'react'
 import { Container } from '../../globalStyles'
 
 
-const Socials = () => {
+const ThatsAllFolks = () => {
     return(
         <>
         </>
     )
 }
 
-export default Socials;
+export default ThatsAllFolks;

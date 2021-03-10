@@ -79,10 +79,10 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-    padding-left: 2.5em;
+    padding-left: ${({status}) => (status ? '': '3rem' )};;
     margin-top: 1em;
     margin-bottom: 35px;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     line-height: 30px;
     color: #811313;
 `
@@ -111,7 +111,7 @@ export const TextBold = styled.p`
     font-size: 4rem;
     padding-left: 0.5rem;
     margin-left: 2rem;
-    margin-right: ${({status}) => (status ? '3rem': '-3.5rem' )}
+    margin-right: ${({status}) => (status ? '2.75rem': '-3.5rem' )}
 `
 
 export const ViewAll = styled.a`

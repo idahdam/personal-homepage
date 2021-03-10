@@ -5,3 +5,5 @@ export { default as Footer } from './Footer/Footer'
 export { default as Gradient } from './Gradient/Gradient'
 export { default as Catalog } from './CatalogComponent/Catalog';
 export { default as Socials } from './Socials/Socials';
+export { default as SocialDetailsHM } from './SocialsDetailsHM/SocialDetailsHM';
+export { default as SocialsDetails } from './SocialsDetails/SocialsDetails';

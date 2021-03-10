@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const ProjectsListHeaderContainer = styled.div`
     padding-top: 10rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0.5rem;
     text-align: center;
 `
 

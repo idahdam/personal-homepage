@@ -8,6 +8,7 @@ import Blogs from './components/Blogs/Blogs';
 import NaP from './pages/NaP/NaP';
 import BlogDetails from './pages/Blogs/Blogs';
 import ProjectDetails from './pages/Projects/Projects';
+import SocialsDetailss from './pages/SocialsDetails/SocialsDetails';
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
@@ -29,7 +30,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route exact path="/Blogs" component={Blogs}/>
           <Route exact path="/Projects" component={Projects}/>
-          <Route exact path="/Socials" component={NaP}/>
+          <Route exact path="/Socials" component={SocialsDetailss}/>
           <Route exact path="/Blogs/:id" render={props => <BlogDetails {...props} />} />
           <Route exact path="/Projects/:id" render={props => <ProjectDetails {...props} />} />
           <Route component={NaP}/>
