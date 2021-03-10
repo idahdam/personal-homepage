@@ -11,7 +11,7 @@ const SocialsDetails = () => {
         <Container>
             <SocialsListHeaderContainer>
                 <SocialsListHeaderTitle>Socials</SocialsListHeaderTitle>
-                <SocialsListHeaderDesc>I put my socials on the home. But I'll give you here too!</SocialsListHeaderDesc>
+                <SocialsListHeaderDesc>I put my socials on 'Home'. But I'll give them here too!</SocialsListHeaderDesc>
             </SocialsListHeaderContainer>
         </Container>
     )

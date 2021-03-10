@@ -18,9 +18,8 @@ export const SocialsHeader = styled.p`
     background-clip: padding-box;
     text-decoration: none;
     font-size: 4rem;
-    padding-left: 1rem;
-    padding-right: 2rem;
-    margin-left: 31rem;
+    text-align: center;
+    margin-left: 30rem;
     margin-right: 30rem;
 `
 
@@ -28,7 +27,7 @@ export const SocialsDesc = styled.p`
     color: black;
     font-size: 1.5rem;
     padding-top: 1.5rem;
-    margin-left: 31rem;
+    text-align: center;
 `
 
 export const SocialsFolks = styled.p`
