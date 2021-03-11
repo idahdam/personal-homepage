@@ -2,7 +2,7 @@
 title: Issues I had with Strapi Internationalization
 author: idahdam
 date: 2021-03-08T11:58:05.569Z
-thumbnail: https://i.pinimg.com/originals/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.png
+thumbnail: https://res.cloudinary.com/practicaldev/image/fetch/s--BQnUXhDA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/0stcpprta4xdxiaauulj.png
 ---
 About a month ago I had a web development project, aimed to revamp the company's website. During the first meeting, we were explained on how the website would look UI wise and it was actually a nice experience working during the pandemic. 
 
@@ -39,3 +39,9 @@ If you ever used React, you would probably already knew that curly brackets can 
 Well... it did not stop there. Around 1 week before the deadline, the FE person-in-charge contacted me trying to solve the problem of content internationalization aswell, but upon doing so in mobile version of the website, he wasn't able to do so. I had to jump in my VSCode once more and checking, he did everything I had done and well well. 
 
 <br/>
+
+I ended up making a whole new context and a page checking if the page is opened from a mobile version. It was a simple solution, the redundancy of having two different context would change the language upon changing screen resolution. For example, I tested the mobile version using minimized web browser, changed the language to let's say,  Indonesian. Going back full-screen, it would go back to the context of PC web-browser type. I was assuming that if you opened the page from a mobile version, less likely you would want to try the web version from a mobile phone and vice versa. Please let me know on my socials if you think that I could've gone better, I would love to hear and learn more.
+
+<br/>
+
+Anyway, that's all the issues I had. I hope StrapiJS' internationalization plugin would be available ASAP so no developers would have to deal with this problem anymore. Cheers.
