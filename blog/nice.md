@@ -4,6 +4,10 @@ author: idahdam
 date: 2021-03-08T11:58:05.569Z
 thumbnail: https://res.cloudinary.com/practicaldev/image/fetch/s--BQnUXhDA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/0stcpprta4xdxiaauulj.png
 ---
+Okay, so the tutorial on using and deploying StrapiJS are a lot on the web, so I just want to address some issues I had with StrapiJS. 
+
+<br/>
+
 About a month ago I had a web development project, aimed to revamp the company's website. During the first meeting, we were explained on how the website would look UI wise and it was actually a nice experience working during the pandemic. 
 
 <br/>
@@ -12,7 +16,7 @@ I was in charge on the backend, making collections, content internationalization
 
 <br/>
 
-At first, content internationalization was not a problem for me, knowing that i18n, a library for doing so, already established for a while. But then I realized doing the client-side translating was not ideal, especially running command to parse and change them into .json file every time they publish a new article and had to redeploy the website. StrapiJS' docs did not have the ability to do so either, even during the time of writing this blogpost. But during my headache searching, I found [this ](https://medium.com/strapi/content-internationalization-with-strapi-507ef5869c15)article from StrapiJS medium: 
+At first, content internationalization was not a problem for me, knowing that i18n, a library for doing so, already established for a while. But then I realized doing the client-side translating was not ideal, especially running command to parse and change them into .json file every time they publish a new article and had to redeploy the website. StrapiJS' docs did not have the ability to do so either, even during the time of writing this blogpost. I also found another option, which I can use their API to translate a content-type. What if the translation is written out of context and we had to pay more? But during my headache searching, I found [this ](https://medium.com/strapi/content-internationalization-with-strapi-507ef5869c15)article from StrapiJS medium: 
 
 <br/>
 
