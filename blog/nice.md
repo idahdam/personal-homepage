@@ -32,7 +32,7 @@ Around 30 minutes of wandering, and some sugar intake, I noticed that we use lan
 
 <br/>
 
-using ReactJS' useContext, you can export the value of the flag state and store them in useContext. The value of them could also be exported and used to determine which language-content to be displayed. It. was. the best feeling ever. 
+Using ReactJS' useContext, you can export the value of the flag state and store them in useContext. The value of them could also be exported and used to determine which language-content to be displayed. It. was. the best feeling ever. 
 
 <br/>
 
@@ -44,8 +44,8 @@ Well... it did not stop there. Around 1 week before the deadline, the FE person-
 
 <br/>
 
-I ended up making a whole new context and a page checking if the page is opened from a mobile version. It was a simple solution, the redundancy of having two different context would change the language upon changing screen resolution. For example, I tested the mobile version using minimized web browser, changed the language to let's say,  Indonesian. Going back full-screen, it would go back to the context of PC web-browser type. I was assuming that if you opened the page from a mobile version, less likely you would want to try the web version from a mobile phone and vice versa. Please let me know on my socials if you think that I could've gone better, I would love to hear and learn more.
+I ended up making a whole new context and a page checking if the page is opened from a mobile version. It was a simple solution, but the redundancy of having two different context would change the language upon changing screen resolution. For example, I tested the mobile version using minimized web browser, changed the language to let's say,  Indonesian. Going back full-screen, it would go back to the context of PC web-browser type. I was assuming that if you opened the page from a mobile version, less likely you would want to try the web version from a mobile phone and vice versa. Please let me know on my socials if you think that I could've gone better, I would love to hear and learn more.
 
 <br/>
 
-Anyway, that's all the issues I had. I hope StrapiJS' internationalization plugin would be available ASAP so no developers would have to deal with this problem anymore. Cheers.
+Anyway, that's all the issues I had. I hope StrapiJS' internationalization plugin would be available ASAP so no developers will have to deal with this problem anymore. Cheers.
