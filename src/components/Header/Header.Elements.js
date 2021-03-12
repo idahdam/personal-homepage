@@ -7,6 +7,7 @@ export const InfoSec = styled.div`
 `
 
 export const InfoRow = styled.div`
+    margin-top: 7.5rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -44,8 +45,8 @@ export const InfoColumnImg = styled.div`
 `
 
 export const TextWrapper = styled.div`
+    margin: auto;
     max-width: 540px;
-    padding-top: 40px;;
     padding-bottom: 50px;
     @media screen and (max-width: 768px){
         padding-bottom: 76px;
@@ -94,6 +95,7 @@ export const Subtitle = styled.p`
 `
 
 export const ImgWrapper = styled.div`
+    margin-top: -2rem;
     padding-top: 1rem; 
     max-width: 100rem;
     display: flex;
