@@ -10,8 +10,10 @@ import {
     ProjectsDetailsHeaderContainer,
     ProjectsDetailsBodyContainer
 } from './ProjectsDetails.elements';
+import {Helmet} from 'react-helmet'
 
 const ProjectsDetails = (props) => {
+    const TITLE = "Hadi's Project";
     const validId = parseInt(props.match.params.id)
     if (!validId) {
         return <Redirect to="/404" />
@@ -31,6 +33,10 @@ const ProjectsDetails = (props) => {
         return <Redirect to="/404" />
     }
     return (
+        <>
+        <Helmet>
+            <title>{ `${TITLE}: ${fetchedPost.title}`}</title>
+        </Helmet>
         <ProjectsDetailsContainer>
             <ProjectsDetailsHeaderContainer>
                 <ProjectsDetailsTitle>{fetchedPost.title}</ProjectsDetailsTitle>
@@ -41,6 +47,7 @@ const ProjectsDetails = (props) => {
                 <ProjectsDetailsMarkdown source={fetchedPost.content} escapeHtml={false} />
             </ProjectsDetailsBodyContainer>
         </ProjectsDetailsContainer>
+        </>
     )
 }
 

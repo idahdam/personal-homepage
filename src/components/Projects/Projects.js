@@ -16,14 +16,19 @@ import {
     SlideTitle,
     SlideDesc
 } from './Projects.elements';
+import {Helmet} from 'react-helmet'
 
 let counter = 0;
 const Projects = () => {
-
+    const TITLE = "Hadi's Projects"
     const excerptList = projectsList.map(post => {
         return post.content.split(" ").slice(0, 20).join(" ") + "..."
     })
     return (
+        <>
+        <Helmet>
+            <title>{TITLE}</title>
+         </Helmet>
         <Container>
             <ProjectsListHeaderContainer>
                 <ProjectsListHeaderTitle>Projects</ProjectsListHeaderTitle>
@@ -57,6 +62,7 @@ const Projects = () => {
             <SlideTitle>Slide to View ➡️</SlideTitle>
             <SlideDesc>Sorted from the freshest.</SlideDesc>
         </Container>
+        </>
     )
 }
 

@@ -21,12 +21,18 @@ import {
     BlogListLinkTitle,
     BlogListBodyReadmoreLink,
 } from './Blogs.element';
+import {Helmet} from 'react-helmet';
 
 const Blogs = () => {
+    const TITLE = "Hadi's Blogposts"
     const excerptList = bloglist.map(post => {
         return post.content.split(" ").slice(0, 20).join(" ") + "..."
     })
     return (
+        <>
+        <Helmet>
+            <title>{TITLE}</title>
+        </Helmet>
         <Container>
             <BlogListHeaderContainer>
                 <BlogListHeaderTitle>Blog</BlogListHeaderTitle>
@@ -61,6 +67,7 @@ const Blogs = () => {
                     })
                 }
         </Container>
+        </>
     )
 }
 
