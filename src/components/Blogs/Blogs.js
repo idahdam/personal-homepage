@@ -32,6 +32,10 @@ const Blogs = () => {
         <>
         <Helmet>
             <title>{TITLE}</title>
+            <meta
+                name="description"
+                content={TITLE}
+            />
         </Helmet>
         <Container>
             <BlogListHeaderContainer>

@@ -36,6 +36,10 @@ const ProjectsDetails = (props) => {
         <>
         <Helmet>
             <title>{ `${TITLE}: ${fetchedPost.title}`}</title>
+            <meta
+                name="description"
+                content={ `${TITLE}: ${fetchedPost.title}`}
+            />
         </Helmet>
         <ProjectsDetailsContainer>
             <ProjectsDetailsHeaderContainer>

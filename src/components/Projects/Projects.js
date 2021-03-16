@@ -28,6 +28,10 @@ const Projects = () => {
         <>
         <Helmet>
             <title>{TITLE}</title>
+            <meta
+                name="description"
+                content={TITLE}
+            />
          </Helmet>
         <Container>
             <ProjectsListHeaderContainer>
