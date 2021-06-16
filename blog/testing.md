@@ -1,5 +1,5 @@
 ---
-title: Dummy
+title: Becoming One of the Speakers In My Department's Event
 author: idahdam
 date: 2021-03-08T12:13:25.379Z
 thumbnail: /images/asd2.jpg
