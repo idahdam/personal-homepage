@@ -8,7 +8,7 @@ During this 2020-2021 pandemic, I've had 4 different operating systems. Yeah, 4.
 
 <br />
 
-I started using enclosure for my primary OS because I was too lazy to open up my laptop  and put the drive in. Until a few days ago. I was all started when I accidentally put my laptop on my bag too hard it hit the floor ( my bag was on the floor). After the class, I started the thing and it showed no bootable media. The drive is corrupted. I was using HDD and eventually, you know, not great ending happened.
+I started using enclosure for my primary OS because I was too lazy to open up my laptop  and put the drive in. Until a few days ago. It was all started when I accidentally put my laptop on my bag too hard it hit the floor ( my bag was on the floor). After the class, I booted the thing and it showed no bootable media. The drive is corrupted. I was using HDD and eventually, you know, not great ending happened.
 
 <br />
 
@@ -20,7 +20,7 @@ I looked up and found this amazing, superlight OS called [Slax](https://www.slax
 
 <br />
 
-Eventually, I bought an SSD with an enclosure. Didn't think It was a bad move, but it actually is. The interface if the USB would limit the speed of my SSD, wouldn't it? But as long as it worked, I didn't think too much of it.
+Eventually, I bought an SSD with an enclosure. Didn't think It was a bad move, but it actually was. The interface of the USB would limit the speed of my SSD, wouldn't it? But as long as it worked, I didn't think too much of it.
 
 <br />\
 During the first month of pandemic, I had my first bluescreen using SSD with enclosure. Eventually it broke and I ended up using an SSD with an enclosure and forced to have a new OS. My 2nd OS after all. It only lasted for around 3 month before eventually broke again. I bought the HDD with pre-installed Windows in it using MBR. I think that was the reason why it broke? I ended up contacting my friend to hook me up with a fresh installation of Windows.
